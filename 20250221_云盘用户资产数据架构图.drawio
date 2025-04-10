@@ -1,0 +1,249 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
+  <diagram name="Page-1" id="Page-1">
+    <mxGraphModel dx="2403" dy="2019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;主平台&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="2">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=1;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="349" y="232" width="148" height="98" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;新平台&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="3">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=2;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="349" y="374" width="148" height="110" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;云部BI集群&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;1、hudi_ods.record_file（726亿-不更新数据，没资源）&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;2、hudi_ods.t_asset_file（同一个id不同版本多条记录）（t_asset_file_last-全量600亿--同一份文件取最新变更的版本，10多个小时）&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;3、hudi_ods.drs_content（每天增量入库，增量7亿，4.1t最新快照，2天入库）&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="4">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=3;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="706" y="251" width="536" height="202" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;源系统&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;（业务系统侧）&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="5">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=4;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="365" y="80" width="132" height="54" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;数据基础层 ODS\DWD&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;（云部BI集群）&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="6">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=5;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="883" y="80" width="163" height="54" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;大数据基础平台：&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;1、hudi_ods.record_file（726亿-不更新数据，没资源）&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;2、hudi_ods.t_asset_file（同一个id不同版本多条记录）（t_asset_file_last-全量600亿--同一份文件取最新变更的版本，10多个小时）&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;3、hudi_ods.drs_content（每天增量入库，增量7亿，4.1t最新快照，2天入库）&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="7">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=6;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="1502" y="251" width="536" height="202" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;主题层 DW\DWS&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;（大数据基础平台）&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="8">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=7;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="1699" y="80" width="163" height="54" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:18px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;现状（满华提供）：对于主平台，是每周和每月同步一次数据；&lt;br/&gt;对于云空间，目前bi还原到的t_asset_file表有 600亿数据， record_file表有726亿数据，&lt;br/&gt;由于该数据数据量大，目前通过增量操作日志关联更新得到，不一定准确，但基本满足统计需求，&lt;br/&gt;请根据场景判断是否采用或考虑接入云空间底座&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:18px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:18px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;bi目前还原和处理出来的云空间相关表数据量：&lt;br/&gt;- t_asset_file 600亿&lt;br/&gt;- record_file 726亿&lt;br/&gt;- 【t_asset_file过滤usefor=&amp;prime;content&amp;prime;，相同rid按mtime取最新】 asset_file_last 256亿 &lt;br/&gt;- 【asset_file_last按id关联record_file更新表】 drs_content表242亿 &lt;br/&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="9">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=8;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="177" y="-403" width="775" height="377" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;drs_content表说明&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;1、&lt;/font&gt;&lt;font style=&quot;font-size:NaNpx;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;hudi_ods.drs_content（每天增量入库，增量7亿，4.1t最新快照，2天入库）&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:NaNpx;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;粒度：用户-文件粒度&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="10">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=9;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="706" y="522" width="536" height="202" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;大数据基础平台：&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;用户资产-资产表&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;分层：DW&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;粒度：资产粒度&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;筛选规则：1）根据资产类型筛选属于，视频、图片、文档、音频，按分区存放；2）剔除回收站不为0的记录；3）剔除因旧平台迁移的重复的记录，通过文件id，分组，utime时间排序取最新的sha256记录；4）保留size&amp;gt;0的记录&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="11">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=10;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="1502" y="522" width="536" height="202" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:30px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;现状&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="12">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=11;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SI/i5B4koRAWC+Lu9kMaIxpW7mfZNkw5gOSvhJHA2B28Huek2KMAKONdGSa9DVIA1YNlZL3tvF9OSdyKRSU12TRd2yrGU4OzIXUPgqE0GFuw3evlP+Df6AKO4P6Ry8t27jTiiJrE+AQ==);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="29" y="355" width="148" height="98" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:30px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;用户资产域&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="13">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=12;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SI/i5B4koRAWC+Lu9kMaIxpW7mfZNkw5gOSvhJHA2B28Huek2KMAKONdGSa9DVIA1YNlZL3tvF9OSdyKRSU12TRd2yrGU4OzIXUPgqE0GFuw3evlP+Df6AKO4P6Ry8t27jTiiJrE+AQ==);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="29" y="982" width="173" height="142" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;主平台&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="14">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=13;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="357" y="922" width="148" height="98" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;新平台&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="15">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=14;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="357" y="1064" width="148" height="110" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;数据应用层ADS&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;（云部BI集群）&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="16">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=15;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="883" y="855" width="163" height="54" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;数据基础层 ODS\DWD&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;（大数据基础平台）&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="17">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=16;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="1699" y="855" width="163" height="54" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;需求：&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;1、hudi_ods.record_file（726亿-不更新数据，没资源）&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;2、hudi_ods.t_asset_file（同一个id不同版本多条记录）（t_asset_file_last-全量600亿--同一份文件取最新变更的版本，10多个小时）&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;3、T_ATTACHMENTS&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;技术方案：&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="18">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=17;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="1502" y="947" width="536" height="202" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;需求：&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;1、&lt;/font&gt;&lt;font style=&quot;font-size:NaNpx;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;hudi_ods.drs_content（每天增量入库，增量7亿，4.1t最新快照，2天入库）&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:NaNpx;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;技术方案：&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="19">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=18;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="2308" y="947" width="536" height="202" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;主题层 DW\DWS&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;（大数据基础平台）&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="20">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=19;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="2481" y="855" width="163" height="54" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:left;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;需求：&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;1、hudi_ods.record_file（726亿-不更新数据，没资源）&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;2、hudi_ods.t_asset_file（同一个id不同版本多条记录）（t_asset_file_last-全量600亿--同一份文件取最新变更的版本，10多个小时）&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;3、T_ATTACHMENTS&lt;br/&gt;&lt;/font&gt;&lt;font style=&quot;font-size:12px;font-family:0;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;技术方案：&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="21">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=20;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nZBRDoQgDERP03+WHsHFe5iISyOCQdT19kIaIxq//Jtp3zTpAFaTaUYNUkwx+F6v1EYD+AUpyRkdKCYFqACrzgf9C352LfuxyWRWg1/yhT/nRE5IsZWuZtCSK8CPeI0e/hF+jV7AJM4PO7KWCyr390bSiNtEtQM=);strokeColor=#000000;strokeWidth=2;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="719" y="1167" width="536" height="202" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="30">
+          <mxCell style="vsdxID=22;edgeStyle=none;dashed=1;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeWidth=2;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;" parent="1" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="982" as="offset" />
+              <Array as="points">
+                <mxPoint x="2178" y="908.37" />
+                <mxPoint x="2178" y="908.37" />
+              </Array>
+              <mxPoint x="2178" y="28" as="sourcePoint" />
+              <mxPoint x="2178" y="1788" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="31">
+          <mxCell style="vsdxID=25;edgeStyle=none;dashed=1;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeWidth=2;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;" parent="1" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="1062" y="102" as="offset" />
+              <Array as="points">
+                <mxPoint x="1061.13" y="788" />
+                <mxPoint x="1061.13" y="788" />
+              </Array>
+              <mxPoint x="2123" y="788" as="sourcePoint" />
+              <mxPoint y="788" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="32">
+          <mxCell style="vsdxID=29;edgeStyle=none;dashed=1;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeWidth=2;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;" parent="1" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="982" as="offset" />
+              <Array as="points">
+                <mxPoint x="1370" y="906.37" />
+                <mxPoint x="1370" y="906.37" />
+              </Array>
+              <mxPoint x="1370" y="26" as="sourcePoint" />
+              <mxPoint x="1370" y="1787" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="33">
+          <mxCell style="vsdxID=30;edgeStyle=none;dashed=1;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeWidth=2;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;" parent="1" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="977" as="offset" />
+              <Array as="points">
+                <mxPoint x="647" y="909" />
+                <mxPoint x="647" y="909" />
+              </Array>
+              <mxPoint x="647" y="33" as="sourcePoint" />
+              <mxPoint x="647" y="1785" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="22">
+          <mxCell style="vsdxID=21;edgeStyle=none;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeWidth=2;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="4" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-105" y="137" as="offset" />
+              <Array as="points">
+                <mxPoint x="601.5" y="281" />
+                <mxPoint x="601.5" y="352" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="23">
+          <mxCell style="vsdxID=23;edgeStyle=none;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeWidth=2;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="4" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-105" y="63" as="offset" />
+              <Array as="points">
+                <mxPoint x="601.5" y="429" />
+                <mxPoint x="601.5" y="352" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="24">
+          <mxCell style="vsdxID=24;edgeStyle=none;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeWidth=2;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="18" target="19" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-135" y="102" as="offset" />
+              <Array as="points">
+                <mxPoint x="2173.13" y="1048" />
+                <mxPoint x="2173.13" y="1048" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="25">
+          <mxCell style="vsdxID=26;edgeStyle=none;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeWidth=2;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4" target="7" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-130" y="102" as="offset" />
+              <Array as="points">
+                <mxPoint x="1372.13" y="352" />
+                <mxPoint x="1372.13" y="352" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="26">
+          <mxCell style="vsdxID=27;edgeStyle=none;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeWidth=2;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="14" target="18" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-499" y="140" as="offset" />
+              <Array as="points">
+                <mxPoint x="1003.63" y="971" />
+                <mxPoint x="1003.63" y="1048" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="27">
+          <mxCell style="vsdxID=28;edgeStyle=none;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeWidth=2;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="15" target="18" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-499" y="65" as="offset" />
+              <Array as="points">
+                <mxPoint x="1003.63" y="1119" />
+                <mxPoint x="1003.63" y="1048" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="28">
+          <mxCell style="vsdxID=31;edgeStyle=none;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeWidth=2;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=0.9981343283582089;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="10" target="11" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-130" y="102" as="offset" />
+              <Array as="points">
+                <mxPoint x="1371.24" y="623" />
+                <mxPoint x="1371.24" y="623" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tags="Background" id="29">
+          <mxCell style="vsdxID=32;edgeStyle=none;startArrow=none;endArrow=block;startSize=5;endSize=5;strokeWidth=2;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="19" target="21" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="601" y="101" as="offset" />
+              <Array as="points">
+                <mxPoint x="2576" y="1268" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
