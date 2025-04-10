@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="26.2.9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1871" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1697" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -129,16 +129,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mdKV01XAuSbf0GLCG51V-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#008a00;strokeColor=light-dark(#050505, #82cd82);entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mdKV01XAuSbf0GLCG51V-3" target="mdKV01XAuSbf0GLCG51V-26">
+        <mxCell id="mdKV01XAuSbf0GLCG51V-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#008a00;strokeColor=light-dark(#050505, #82cd82);" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mdKV01XAuSbf0GLCG51V-3" target="mdKV01XAuSbf0GLCG51V-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="350" as="sourcePoint" />
-            <mxPoint x="440" y="350" as="targetPoint" />
+            <mxPoint x="550.0000000000001" y="600" as="sourcePoint" />
+            <mxPoint x="790" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mdKV01XAuSbf0GLCG51V-31" value="读取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mdKV01XAuSbf0GLCG51V-30">
-          <mxGeometry x="0.04" y="1" relative="1" as="geometry">
+        <mxCell id="mdKV01XAuSbf0GLCG51V-36" value="离线数据同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mdKV01XAuSbf0GLCG51V-30">
+          <mxGeometry x="-0.015" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mdKV01XAuSbf0GLCG51V-37" value="&lt;div&gt;&lt;b&gt;517推荐平台部署&lt;/b&gt;&lt;/div&gt;&lt;div&gt;CIE环境部署&lt;/div&gt;&lt;div&gt;1、主机资源申请（已完成）--1days&lt;/div&gt;&lt;div&gt;2、minibase程序账号申请（已完成）--1days&lt;/div&gt;&lt;div&gt;3、安装包下载/上传（进行中）---3days&lt;/div&gt;&lt;div&gt;单套环境&lt;/div&gt;&lt;div&gt;4、部署环境检测及调整（待启动）---2days&lt;/div&gt;&lt;div&gt;5、CIE环境部署（待启动）---2days&lt;/div&gt;&lt;div&gt;6、QA验证（待启动）---1days&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="555" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mdKV01XAuSbf0GLCG51V-38" value="&lt;div&gt;&lt;b&gt;517生产模型部署与测通&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="680" y="605" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
