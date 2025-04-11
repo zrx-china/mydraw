@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="26.2.9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1697" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1896" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -140,11 +140,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mdKV01XAuSbf0GLCG51V-37" value="&lt;div&gt;&lt;b&gt;517推荐平台部署&lt;/b&gt;&lt;/div&gt;&lt;div&gt;CIE环境部署&lt;/div&gt;&lt;div&gt;1、主机资源申请（已完成）--1days&lt;/div&gt;&lt;div&gt;2、minibase程序账号申请（已完成）--1days&lt;/div&gt;&lt;div&gt;3、安装包下载/上传（进行中）---3days&lt;/div&gt;&lt;div&gt;单套环境&lt;/div&gt;&lt;div&gt;4、部署环境检测及调整（待启动）---2days&lt;/div&gt;&lt;div&gt;5、CIE环境部署（待启动）---2days&lt;/div&gt;&lt;div&gt;6、QA验证（待启动）---1days&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="mdKV01XAuSbf0GLCG51V-37" value="&lt;div&gt;&lt;b&gt;517推荐平台部署-20250410&lt;/b&gt;&lt;/div&gt;&lt;div&gt;CIE环境部署&lt;/div&gt;&lt;div&gt;1、主机资源申请（已完成）--1days&lt;/div&gt;&lt;div&gt;2、minibase程序账号申请（已完成）--1days&lt;/div&gt;&lt;div&gt;3、安装包下载/上传（进行中）---3days&lt;/div&gt;&lt;div&gt;单套环境&lt;/div&gt;&lt;div&gt;4、部署环境检测及调整（待启动）---2days&lt;/div&gt;&lt;div&gt;5、CIE环境部署（待启动）---2days&lt;/div&gt;&lt;div&gt;6、QA验证（待启动）---1days&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="380" y="555" width="260" height="140" as="geometry" />
         </mxCell>
         <mxCell id="mdKV01XAuSbf0GLCG51V-38" value="&lt;div&gt;&lt;b&gt;517生产模型部署与测通&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="680" y="605" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mdKV01XAuSbf0GLCG51V-39" value="&lt;div&gt;&lt;b&gt;实时采集接口开发进展：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;已上线的Kafka Topic如下：&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1、dwd_ydyp_yhzc_paas_file_exclude_rti【用户资产（用于排除异常文件）】&lt;/div&gt;&lt;div&gt;2、dwd_ydyp_yhzc_saas_album_rti【智能相册、回忆故事物料表】&lt;/div&gt;&lt;div&gt;3、dwd_ydyp_yhzc_saas_album_ai_authorize_rti【智能相册配置表】&lt;/div&gt;&lt;div&gt;明天上线：&lt;/div&gt;&lt;div&gt;1、dwd_ydyp_yhzc_topic_algorithm_file_ai_meta_data【图片AI标签打标后物料表】&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-110" y="535" width="460" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
