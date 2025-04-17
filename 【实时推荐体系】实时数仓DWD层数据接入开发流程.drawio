@@ -396,7 +396,7 @@
         <mxCell id="JVZU_cV8RBFUkfRDbjYJ-69" value="Rocket MQ" style="text;html=1;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=22;fontColor=default;labelBackgroundColor=none;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="255.5" y="55" width="115" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JVZU_cV8RBFUkfRDbjYJ-70" value="Kafka ODS\DWD:10.136.96.55" style="text;html=1;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=22;fontColor=default;labelBackgroundColor=none;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="JVZU_cV8RBFUkfRDbjYJ-70" value="Kafka(ODS\DWD:10.136.96.55)" style="text;html=1;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=22;fontColor=default;labelBackgroundColor=none;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1127" y="48" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JVZU_cV8RBFUkfRDbjYJ-71" value="Hbase" style="text;html=1;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=22;fontColor=default;labelBackgroundColor=none;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
