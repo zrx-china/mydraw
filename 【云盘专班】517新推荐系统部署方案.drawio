@@ -13,7 +13,7 @@
         <mxCell id="MdEyK28S_bW_BlFtz69--1" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;&quot;&gt;10.19.87.1&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=35;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2550" y="1210" width="390" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MdEyK28S_bW_BlFtz69--2" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312;&quot;&gt;10.136.103.x&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=35;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MdEyK28S_bW_BlFtz69--2" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;&quot;&gt;10.136.103.0/24&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=35;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1090" y="1230" width="390" height="30" as="geometry" />
         </mxCell>
       </root>
