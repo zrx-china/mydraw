@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="26.2.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1959" dy="1335" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2050" dy="1250" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -399,9 +399,6 @@
         </UserObject>
         <mxCell id="JVZU_cV8RBFUkfRDbjYJ-69" value="Rocket MQ" style="text;html=1;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=22;fontColor=default;labelBackgroundColor=none;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="255.5" y="55" width="115" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OxFpvx4XPPDwwSpDo5z8-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JVZU_cV8RBFUkfRDbjYJ-70" target="JVZU_cV8RBFUkfRDbjYJ-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JVZU_cV8RBFUkfRDbjYJ-70" value="&lt;div&gt;(ODS\DWD\&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ADS10.19.85.9-14:9092)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;OqWRdbeUDoo7jSx1rSzcME5pn2f&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;10.19.85.9:9092&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+f&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7345731696804773890&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;channel&amp;quot;:&amp;quot;saas&amp;quot;,&amp;quot;isEqualBlockSelection&amp;quot;:false,&amp;quot;pasteRandomId&amp;quot;:&amp;quot;5d8c0905-ed8c-41bc-aaa4-5000a2f64690&amp;quot;,&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:false,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:20,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:4,&amp;quot;end&amp;quot;:19},&amp;quot;recordId&amp;quot;:&amp;quot;ZC1Sdcz6somJzwxnRLjc2tcqnHb&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot; data-lark-record-format=&quot;docx/text&quot; class=&quot;lark-record-clipboard&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=22;fontColor=default;labelBackgroundColor=none;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1150" y="40" width="385" height="30" as="geometry" />
